@@ -1,0 +1,91 @@
+# Visual Studio (папка с настройками)
+.vs/
+.vsidx
+
+# Build output
+bin/
+obj/
+out/
+
+# Runtime
+*.log
+*.tmp
+*.temp
+*.cache
+*.user
+*.usertemp
+
+# User-specific files
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider (если используете)
+.idea/
+*.sln.iml
+
+# VS Code (легковесный вариант, без папки .vscode)
+.vscode/
+*.code-workspace
+
+# Dotnet tools
+tools/
+packages/
+*.nupkg
+
+# Test results
+TestResults/
+*.trx
+coverage/
+.coverage
+*.coverage.xml
+
+# Environment files
+.env
+*.local
+appsettings.Development.json
+appsettings.Local.json
+
+# Database
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+# Logs
+logs/
+Logs/
+*.log
+
+# Health check & temp
+healthchecksdb
+*.pid
+*.seed
+
+# Publish output
+/publish/
+
+# Node (если используете npm/gulp в ASP.NET)
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# Docker (если используете)
+*.dockerignore
+docker-compose*.override.yml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+*.xml
+
+# Rider cache
+/_ReSharper.Caches/
